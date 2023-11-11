@@ -1,12 +1,13 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
 
 a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 14px;
 }
 
 header {
@@ -24,6 +25,7 @@ header {
 hr.solid {
   border: 0.4pt solid #02e0d0;
   width: 40px;
+  margin: 20px auto;
 }
 
 .our-story {
@@ -37,7 +39,6 @@ hr.solid {
   justify-content: space-around;
   padding: 20px 20px;
   margin: auto;
-  margin-top: 10px;
   width: 70%;
 }
 
@@ -45,11 +46,24 @@ hr.solid {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 100px 20px 150px;
+  width: 40%;
+  margin: auto;
+}
+
+
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px 20px;
   margin: auto;
-  margin-top: 100px;
-  width: 40%;
+  margin-top: 20px;
+  width: 50%;
 }
+
 
 div.button {
   display: inline-block;
@@ -62,13 +76,14 @@ div.button {
   border-style: solid;
   border-width: thin;
   border-color: #02e0d0;
-  /* border-radius: ; */
   padding: 10px 10px;
+  margin: 50px auto;
 }
 
 #learn {
   color: #02e0d0;
   text-decoration: none !important;
+
 }
 
 .our-story {
@@ -78,7 +93,7 @@ div.button {
 }
 
 .slogo {
-  width: 200px;
+  width: 250px;
   position: relative;
   padding: 40px;
 }
