@@ -51,8 +51,6 @@ hr.solid {
   margin: auto;
 }
 
-
-
 .story {
   display: flex;
   flex-direction: column;
@@ -63,7 +61,6 @@ hr.solid {
   margin-top: 20px;
   width: 50%;
 }
-
 
 div.button {
   display: inline-block;
@@ -83,7 +80,6 @@ div.button {
 #learn {
   color: #02e0d0;
   text-decoration: none !important;
-
 }
 
 .our-story {
@@ -106,6 +102,7 @@ div.button {
   padding-top: 73px;
   padding-bottom: 73px;
   max-width: 1200px;
+  margin: 0 auto;
 }
 .expSection-title {
   text-align: center;
@@ -173,6 +170,7 @@ div.button {
 /* --------------end of EXPERTIZE-----------------  */
 /* -------CONTACT ------- */
 .contact-section {
+  margin: 0 auto;
   padding-top: 73px;
   padding-bottom: 73px;
   display: flex;
