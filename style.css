@@ -109,20 +109,20 @@ div.button {
   font-family: "Playfair Display", serif;
   font-size: 22px;
   line-height: 1;
-  margin-bottom: 5px;
+  margin-bottom: 16px;
 }
 .expSection-title__text {
   font-family: "Playfair Display", serif;
   font-size: 14px;
   line-height: 1;
   text-align: center;
-  margin-bottom: 29px;
+  margin-bottom: 16px;
 }
 .expSection-line {
   width: 35px;
   height: 1px;
   background-color: gray;
-  margin-bottom: 84px;
+  margin-bottom: 51px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -130,22 +130,39 @@ div.button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
+  @media screen and (min-width: 1000px) {
+    gap: 0px;
+  }
 }
 .expSection-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 320px;
+  width: 300px;
+
   padding: 33px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  @media screen and (min-width: 1000px) {
+    border-radius: 0px;
+  }
 }
-.expSection-item:nth-child(-n + 3) {
-  border-bottom: 1px solid gray;
+@media screen and (min-width: 1000px) {
+  .expSection-item {
+    border-color: transparent;
+    width: 320px;
+  }
+  .expSection-item:nth-child(-n + 3) {
+    border-bottom: 1px solid gray;
+  }
+  .expSection-item:nth-child(-n + 2),
+  .expSection-item:nth-child(4),
+  .expSection-item:nth-child(5) {
+    border-right: 1px solid gray;
+  }
 }
-.expSection-item:nth-child(-n + 2),
-.expSection-item:nth-child(4),
-.expSection-item:nth-child(5) {
-  border-right: 1px solid gray;
-}
+
 .expSection-item__icon {
   fill: blue;
   width: 50px;
@@ -174,9 +191,17 @@ div.button {
   padding-top: 73px;
   padding-bottom: 73px;
   display: flex;
+  flex-direction: column;
   max-width: 1200px;
-  justify-content: center;
-  gap: 100px;
+
+  gap: 60px;
+  @media screen and (max-width: 900px) {
+    align-items: center;
+  }
+  @media screen and (min-width: 900px) {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .contact-form__title {
@@ -190,7 +215,8 @@ div.button {
   flex-direction: column;
 }
 .contact-form__input {
-  width: 461px;
+  width: 300px;
+
   height: 46px;
   margin-bottom: 23px;
   padding-left: 21px;
@@ -201,6 +227,9 @@ div.button {
   font-size: 14px;
   line-height: 1;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 1000px) {
+    width: 461px;
+  }
 }
 .contact-form__input:hover,
 .contact-form__input:focus {
@@ -213,13 +242,16 @@ div.button {
   border: 1px solid #b3b2b2;
   border-radius: 3px;
   outline: transparent;
-  width: 461px;
+  width: 300px;
   height: 201px;
   margin-bottom: 20px;
   resize: none;
   padding-left: 21px;
   padding-top: 21px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 1000px) {
+    width: 461px;
+  }
 }
 .contact-form__text-area:hover,
 .contact-form__text-area:focus {
@@ -254,12 +286,17 @@ div.button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 115px;
+  grid-column-gap: 18px;
   grid-row-gap: 18px;
+  @media screen and (min-width: 1000px) {
+    grid-column-gap: 115px;
+  }
 }
 .clients-item {
   align-self: center;
+  justify-self: center;
 }
+
 /* -------end of CONTACT ------- */
 
 /* --------- Watch ------- */
