@@ -27,3 +27,66 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  background-image: url(img/bgk-header.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0%;
+  }
+  
+header {
+  color: white;
+  text-align: center;
+}
+
+hr.solid {
+  border: 0.4pt solid #02e0d0;
+  width: 40px;
+}
+
+button {
+  color: #02e0d0;
+
+}
+
+.our-story {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.midnav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  margin: auto;
+  margin-top: 10px;
+  width: 40%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  margin: auto;
+  margin-top: 10px;
+  width: 40%;
+}
