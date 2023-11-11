@@ -10,51 +10,72 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-    <nav>
-      <div class="topnav">
-        <div><img src="img/57cf0f591d3807cb6dae3f5f_Logo.png" alt="logo"></div>
+      <nav>
         <div class="topnav">
-          <a href="#home">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#expertise">EXPERTISE</a>
-          <a href="#teams">TEAMS</a>
-          <a href="works">WORKS</a>
-          <a href="people_say">PEOPLE SAY</a>
-          <a href="contact">CONTACT</a>
-         </div>
-      </div>
-    </nav>
-    <section>
-      <div class="midnav"><h2>We Are Awesome Creative Agency</h2>
-      <hr class="solid">
-      <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-      <div role="button" class="button"><a id="learn" href="#">LEARN MORE</a></div>
-      </div>
-    </section>
-  </header>
-  <main>
-    <section>
-      <div class="our-story">
-          <div><img class="slogo" src="img/logo-big.png" alt="logo-big"></div>
-          <div><h2>OUR STORY</h2>
-          <p class="sp">
-            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus 
-            <br><br>
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-          </p>
-          <div role="button" class="button"><a id="learn" href="#">LEARN MORE</a></div>
+          <div>
+            <img src="img/57cf0f591d3807cb6dae3f5f_Logo.png" alt="logo" />
+          </div>
+          <div class="topnav">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#expertise">EXPERTISE</a>
+            <a href="#teams">TEAMS</a>
+            <a href="works">WORKS</a>
+            <a href="people_say">PEOPLE SAY</a>
+            <a href="contact">CONTACT</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </nav>
+      <section>
+        <div class="midnav">
+          <h2>We Are Awesome Creative Agency</h2>
+          <hr class="solid" />
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+            Morbi accumsan ipsum velit.
+          </p>
+          <div role="button" class="button">
+            <a id="learn" href="#">LEARN MORE</a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div class="our-story">
+          <div><img class="slogo" src="img/logo-big.png" alt="logo-big" /></div>
+          <div>
+            <h2>OUR STORY</h2>
+            <p class="sp">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+              velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+              auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+              Duis sed odio sit amet nibh vulputate cursus
+              <br /><br />
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+              a ornare odio. Sed non mauris vitae erat consequat auctor eu in
+              elit. Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos.
+            </p>
+            <div role="button" class="button">
+              <a id="learn" href="#">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!------- EXPERTIZE ------->
       <section class="expSection-section">
         <h1 class="expSection-title">EXPERTIZE</h1>
-  
+
         <p class="expSection-title__text">
           Lorem ipsum dolor sit amet proin gravida nibh vel velit
         </p>
@@ -66,7 +87,7 @@
               src="./assets/images/expert/screen.svg"
               alt="Screen"
             />
-  
+
             <h2 class="expSection-item__title">WEB DESIGN & DEVELOPMENT</h2>
             <p class="expSection-item__text">
               This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
@@ -135,9 +156,51 @@
           </li>
         </ul>
       </section>
-    </main>
       <!-------end of  EXPERTIZE ------->
+      <!-------CONTACT ------->
+      <section class="contact-section">
+        <div div class="contact-form__wrapper">
+          <h2 class="contact-form__title">GIVE US A GOOD NEWS</h2>
+          <form class="contact-form">
+            <input
+              class="contact-form__input"
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Name"
+              required
+            />
+
+            <input
+              class="contact-form__input"
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              class="contact-form__input"
+              id="subject"
+              name="subject"
+              type="text"
+              placeholder="subject"
+              required
+            />
+
+            <textarea
+              class="contact-form__text-area"
+              id="message"
+              name="message"
+              placeholder="Your Massage"
+            ></textarea>
+
+            <button class="contact-form__btn">SABMIT</button>
+          </form>
+        </div>
+        <div class="clients__wrapper"></div>
+      </section>
+      <!-------end of CONTACT ------->
+    </main>
   </body>
 </html>
-
-
