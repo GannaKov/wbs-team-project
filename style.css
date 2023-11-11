@@ -51,17 +51,6 @@ hr.solid {
   width: 40%;
 }
 
-/* main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 20px;
-  margin: auto;
-  margin-top: 10px;
-  width: 40%;
-} */
-
 div.button {
   display: inline-block;
   -webkit-appearance: button;
