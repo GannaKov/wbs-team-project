@@ -51,7 +51,7 @@ hr.solid {
   width: 40%;
 }
 
-main {
+/* main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,7 +60,7 @@ main {
   margin: auto;
   margin-top: 10px;
   width: 40%;
-}
+} */
 
 div.button {
   display: inline-block;
@@ -102,6 +102,7 @@ div.button {
   outline: 1px dashed red;
   padding-top: 73px;
   padding-bottom: 73px;
+  max-width: 1200px;
 }
 .expSection-title {
   text-align: center;
@@ -172,11 +173,14 @@ div.button {
   padding-top: 73px;
   padding-bottom: 73px;
   display: flex;
+  max-width: 1200px;
+  justify-content: center;
 }
 .contact-form__wrapper {
-  width: 50%;
+  /* width: 50%; */
 }
 .contact-form__title {
+  margin-bottom: 33px;
 }
 .contact-form {
   display: flex;
@@ -207,5 +211,11 @@ div.button {
   background-color: rgb(0, 128, 0);
 }
 .clients__wrapper {
+}
+.clients-title {
+  margin-bottom: 47px;
+}
+.clients--icon {
+  width: 50px;
 }
 /* -------end of CONTACT ------- */
