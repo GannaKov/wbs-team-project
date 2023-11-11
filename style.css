@@ -1,32 +1,7 @@
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul,
-ol {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-}
-
 button {
   cursor: pointer;
 }
-a {
-  text-decoration: none;
-}
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 a {
   text-decoration: none;
@@ -39,7 +14,8 @@ header {
   background-repeat:no-repeat;
   background-size: cover;
   position: relative;
-  margin: 0%;
+  height: 1000px;
+
   }
   
 header {
@@ -52,11 +28,6 @@ hr.solid {
   width: 40px;
 }
 
-button {
-  color: #02e0d0;
-
-}
-
 .our-story {
   display: flex;
   flex-direction: row;
@@ -65,8 +36,11 @@ button {
 
 .topnav {
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-around;
+  padding: 20px 20px;
+  margin: auto;
+  margin-top: 10px;
+  width: 70%;
 }
 
 
@@ -76,7 +50,7 @@ button {
   flex-direction: column;
   padding: 20px 20px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 100px;
   width: 40%;
 }
 
@@ -89,4 +63,40 @@ main {
   margin: auto;
   margin-top: 10px;
   width: 40%;
+}
+
+div.button {
+  display:inline-block;
+  -webkit-appearance:button;
+  padding:3px 8px 3px 8px;
+  font-size:15px;
+  font-weight: bold;
+  position:relative;
+  cursor:context-menu;
+  border-style: solid;
+  border-width: thin;
+  border-color: #02e0d0;
+  border-radius: ;
+  padding: 10px 10px;
+}
+
+#learn {
+  color: #02e0d0;
+  text-decoration: none !important;
+}
+
+.our-story {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.slogo {
+  width: 200px;
+  position: relative;
+  padding: 40px;
+}
+
+.sp {
+  color: grey;
 }
