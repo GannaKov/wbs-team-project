@@ -325,3 +325,218 @@ div.button {
   line-height: 1;
 }
 /* --------- end of Watch ------- */
+/* -------- German ------- */
+
+.team{
+  background-image: url("bgk-header.png");
+  background-size: auto;
+  text-align: center;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.meet{
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 71px;
+}
+
+.subtitle{
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.line{
+  width: 51px;
+  border-top: 2px transparent #bbb;
+  margin-top: 17px;
+
+
+
+
+}
+
+.square{
+  width: 220px;
+  height: 229px;
+  background-color: #ffffff;
+  margin-top: 46px;
+  
+
+}
+
+.team-member{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #ffffff;
+  gap: 20px;
+}
+
+
+
+.member p{
+  color: #bbb;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.member{
+  list-style-type: none;
+}
+
+.member div{
+ 
+  border-color: #7b778f;
+  border-style: solid;
+  border-width: 1px;
+  width: 220px;
+  list-style-type: none;
+  margin: 0px;
+
+}
+
+.member img {
+  height: 220px;
+  width: 220px;
+}
+
+.become{
+  color: #ffffff;
+ 
+}
+
+.hiring{
+  color: #02d2c6;
+  width: 140px;
+  height: 20px;
+  border-color: #02d2c6;
+  border-style: solid;
+  border-width: 2px;
+  padding: 14px 14px;
+  border-radius: 2px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+
+footer {
+  background-image: url(bgk-footer.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+ 
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+  padding-top: 86px;
+  padding-bottom: 80px; 
+  text-align: left;
+}
+
+.footer-item {
+ width: 300px;
+ height: 170px;
+}
+
+ 
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contacts__item {
+  display: flex;
+  gap: 16px;
+}
+.footer-contacts__adress {
+ text-decoration: none;
+ text-size-adjust: ;
+}
+
+
+
+.footer-contacts__tel {
+  text-decoration: none;
+  align-self: flex-start;
+  
+  
+}
+
+.footer-contacts__img {
+  width: 14px;
+  align-self: start;
+}
+
+.subscribe{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+}
+
+.subscribe button{
+  border-color: #7b778f;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  height: 46px;
+  width: 70px;
+  color: #7b778f;
+  opacity: .5;
+}
+
+.subscribe input{
+  color: #7b778f;
+  border-color: #7b778f;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  height: 40px;
+  width: 300px;
+  background-color: transparent;
+}
+
+.subscribe input::placeholder{
+  color: #7b778f;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  list-style: none;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+}
+
+
+
+.bottom{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-bottom: 70px;
+
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 auto;
+}
